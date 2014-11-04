@@ -30,7 +30,7 @@ And we have the basis with raspbian OS, python 2.7 and development packages inst
 Let's take repo [comzone/rpi-owncloud6](https://registry.hub.docker.com/u/comzone/rpi-owncloud6/) as an example for using Docker image with fully installed application. We set the base image for <span style="color:red">Dockerfile</span> as:
 <br>`FROM comzone/rpi-owncloud6`<br>
 And add a command line to start [OwnCloud](http://owncloud.org/) service in <span style="color:red">start</span> file (see [Dockerfile guide](http://docs.resin.io/#!/pages/dockerfile.md) for more details on start file).
-<br>`/usr/bin/supervisord</font>`<br>
+<br>`/usr/bin/supervisord`<br>
 Then Resin.io can help you deploy OwnCloud 6 to devices fast and effortlessly (see details of this project in below section).
 
 _Notice: some applications needs to be configured before starting_
