@@ -42,8 +42,8 @@ Here are some applications on Resin.io using Docker image from Docker Hub as exa
 1. [OwnCloud 6 on Resin.io](https://github.com/nghiant2710/Resin-Owncloud6)
 This project based on a repo from Docker Hub: [comzone/rpi-owncloud6](https://registry.hub.docker.com/u/comzone/rpi-owncloud6/). Using Docker image with installed OwnCloud and adding a script to start the OwnCloud service then Resin.io can deploy OwnCloud 6 on your devices.
 
-2. [Hello World with Go on Resin.io]()
+2. [Hello World with Go on Resin.io](https://github.com/nghiant2710/resin-hello-Go)
 This project is a simple example for using Docker image from Docker Hub: [cretzel/rpi-golang](https://registry.hub.docker.com/u/cretzel/rpi-golang/) to set up development environment for [Go](http://golang.org/) project.
 
-3. [Hello World with Python on Resin.io]()
+3. [Hello World with Python on Resin.io](https://github.com/nghiant2710/resin-hello-python)
 This project is a simple example for using Docker image from Docker Hub: [key3/rpi-raspbian-python2.7-dev](https://registry.hub.docker.com/u/key3/rpi-raspbian-python2.7-dev/) to set up environment for Python project.
